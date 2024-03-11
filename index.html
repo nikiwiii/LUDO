@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chińczyk</title>
+    <script src="js/script.js" type="module"></script>
+    <link rel="stylesheet" href="css/newcss.css" id="stylesheet">    
+    <script src="https://kit.fontawesome.com/68dc57feb0.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="imgs/icon.jpg">
+</head>
+<body>
+    <div id="form">
+        <p>ENTER YOUR NICK (LETTERS, DIGITS)</p>
+        <input type="text" name="nick" id="nick">
+        <button type="button" id="enter">CONNECT</button>
+    </div>
+    <div id="btns">
+        <button type="button" id="btn">LUDO</button>
+        <button type="button" id="vote">I'M READY</button>
+        <div class="room_data">
+            <p id="room_id" style="margin: 0 15px;">ROOM: </p>
+            <div id="players">
+                <div class="pl0"></div>
+            </div>
+        </div>
+        <i class="fa-solid fa-lightbulb" id="i"></i>
+    </div>
+    <div id="game">
+        <div id="warning"></div>
+        <p id="time_left"></p>
+        <div class="board"></div>
+    </div>
+    <img src="imgs/background.jpg" alt="" id="background">
+</body>
+</html>

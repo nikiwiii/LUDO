@@ -1,0 +1,21 @@
+Elementy konstrukcyjne:
+[OK]	0.4 - projekt w całości wykonany z użyciem Klas (proszę o sensowny podział kodu - by nie był cały w jednej metodzie...)
+[OK]	0.2 - zahostowany
+[OK]	0.2 - moduły
+[OK]	0.2 - cykliczne zapytania (short-polling, nie Sockety itp.), klient renderuje częśc kliencką w opariu o dane z serwera
+
+Elementy gry:
+[OK]	2p - dynamiczne pokoje (t.XII)
+[OK]	0.5p - rzut kostką (odpowiednia grafika) wraz z syntezatorem
+[OK]	1p - rozpoczęcie gry (1 lub 6), chodzenie w koło po rzucie kostką
+[OK]	1p - zbijanie (wszystkich na danym polu, ich powrót na pola wyjściowe)
+[OK]	1p - możliwość ukończenia gry (min. do pierwszego gracza który skończy)
+[OK]	1p - przekroczenie czasu, odliczanie czasu
+[OK]	1p - zachowanie pionów (propozycja, miganie) + ruch
+[OK]	1p - przywracanie stanu gry (z czasem) po odświeżeniu/zamknięciu zakładki, gra jest bezpieczną - zadbanie o brak możliwości "hakowania" gry po stronie klienta.
+[?]	0.5p - gettext
+
+URL do hostingu (o ile zahostowane): dygsow.ct8.pl (ct8.pl)
+SUMA: Elementy konstrukcyjne (X): 1
+SUMA: Elementy gry (Y): 8.5 (gettext obowiazkowy?)
+Przewidywana OCENA (X*Y): 8.5
